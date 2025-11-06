@@ -78,7 +78,7 @@ Example policy JSON is in `policy/NextWorkDevEnvironmentPolicy.json`.
 
 
 **7. Development Instance Stopped (Access Allowed)**
-![Dev Instance Stopped](07_images/dev_instance_stopped.png)
+![Dev Instance Stopped](images/07_dev_instance_stopped.png)
 
 
 ---
