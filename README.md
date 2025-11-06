@@ -1,6 +1,7 @@
 # AWS IAM & EC2 Security Project
 
 **Author:** MOHAMMAD ATHAR SHAREEF
+
 **Purpose:** Demonstrate environment-based access control in AWS using IAM policies, EC2, and resource tagging.
 
 ---
