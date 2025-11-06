@@ -39,7 +39,7 @@ Example policy JSON is in `policy/NextWorkDevEnvironmentPolicy.json`.
 
 ---
 
-## How to Reproduce
+## Steps to Reproduce
 1. Create two EC2 instances and tag them:
    - `Env=production` (name: `nextwork-prod-...`)
    - `Env=development` (name: `nextwork-dev-...`)
@@ -85,10 +85,29 @@ Example policy JSON is in `policy/NextWorkDevEnvironmentPolicy.json`.
 
 ---
 
+| Category | Details |
+|-----------|----------|
+| **Project Type** | Cloud Security (AWS IAM + EC2) |
+| **Skills Covered** | IAM, EC2 Security Groups, MFA, Key Pair Management |
+| **Cloud Platform** | Amazon Web Services (Free Tier) |
+| **Time Taken** | ~2 days |
+| **Outcome** | Implemented secure access controls and instance-level protection |
+
+---
+
+## Results & Findings
+- IAM policies successfully restricted unauthorized S3 access.
+- MFA implementation added an extra layer of authentication.
+- Security Groups blocked external traffic except SSH (22) and HTTPS (443).
+- Verified access logs in CloudTrail for auditing.
+
+---
+
 ## Learnings
-- Implemented least privilege with tag-based policies  
+- Implemented least privilege with IAM tag-based policies  
 - Verified policy behavior using the IAM Policy Simulator  
 - Separated dev and prod access to prevent accidental changes
+-  Strengthened understanding of **role-based access control (RBAC)** in cloud environments
 
 ---
 
@@ -99,5 +118,6 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 ## 📬 Contact
 📧 **Email:** athar2196@gmail.com  
 🌐 **GitHub:** [atharshareef7](https://github.com/atharshareef7)
+💼 **LinkedIn:** [Mohammad Athar Shareef](https://www.linkedin.com/in/mohammad-athar-shareef-09181523a/)
 
 ---
