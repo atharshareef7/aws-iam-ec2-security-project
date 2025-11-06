@@ -26,8 +26,7 @@ This report demonstrates practical implementation of **AWS Identity and Access M
 
 ## 🧩 Author
 **Name:** Mohammad Athar Shareef  
-**Program:** Master’s in Cybersecurity (Finland Portfolio Project)  
-**Date:** November 2025
+**Program:** Master’s in Cybersecurity
 
 ---
 
