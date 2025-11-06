@@ -24,8 +24,10 @@ This project shows how to:
 
 ## Files in this Repo
 - `policy/NextWorkDevEnvironmentPolicy.json` — IAM policy used in this project  
-- `images/` — screenshots from the AWS Console  
-- `report/AWS-IAM-EC2-Project-Report.pdf` — (optional) downloadable report  
+- `images/` — screenshots from the AWS Console
+  
+## 📄 Full Report
+- `report/AWS-IAM-EC2-Project-Report.pdf`
 - `README.md` — this file
 
 ---
@@ -92,5 +94,10 @@ Example policy JSON is in `policy/NextWorkDevEnvironmentPolicy.json`.
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` for details.
+
+
+## 📬 Contact
+📧 **Email:** athar2196@gmail.com  
+🌐 **GitHub:** [atharshareef7](https://github.com/atharshareef7)
 
 ---
