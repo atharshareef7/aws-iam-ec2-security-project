@@ -54,31 +54,31 @@ Example policy JSON is in `policy/NextWorkDevEnvironmentPolicy.json`.
 ### 📸 Screenshots
 
 **1. AWS Account Alias Creation**
-![Account Alias Creation](images/account_alias_creation.png)
+![Account Alias Creation](images/01_account_alias_creation.png)
 
 
 **2. Development Instance Tagging**
-![Development Instance Tags](images/tags_development_instance.png)
+![Development Instance Tags](images/02_tags_development_instance.png)
 
 
 **3. Production Instance Tagging**
-![Production Instance Tags](images/tags_production_instance.png)
+![Production Instance Tags](images/03_tags_production_instance.png)
 
 
 **4. IAM Policy JSON**
-![IAM Policy JSON](images/iam_policy_json.png)
+![IAM Policy JSON](images/04_iam_policy_json.png)
 
 
 **5. IAM User Creation**
-![IAM User Creation](images/user_creation_console.png)
+![IAM User Creation](images/05_user_creation_console.png)
 
 
 **6. Production Instance Stop Attempt (Access Denied)**
-![Prod Access Denied](images/production_access_denied.png)
+![Prod Access Denied](images/06_production_access_denied.png)
 
 
 **7. Development Instance Stopped (Access Allowed)**
-![Dev Instance Stopped](images/dev_instance_stopped.png)
+![Dev Instance Stopped](07_images/dev_instance_stopped.png)
 
 
 ---
