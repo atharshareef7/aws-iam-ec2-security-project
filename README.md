@@ -19,6 +19,11 @@ This project shows how to:
 - AWS IAM (policies, users, groups)
 - IAM Policy Simulator (testing)
 - AWS Account Alias (friendly sign-in URL)
+  
+---
+## Architecture Diagram
+
+<img width="1024" height="1024" alt="Architecture diagram" src="https://github.com/user-attachments/assets/3a76e21a-5bba-426f-b063-e7b6fe8ab2cb" />
 
 ---
 
