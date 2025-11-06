@@ -14,7 +14,7 @@ This project shows how to:
 
 ---
 
-## Architecture & Services Used
+## Architecture & Services Used 
 - Amazon EC2 (compute instances)
 - AWS IAM (policies, users, groups)
 - IAM Policy Simulator (testing)
