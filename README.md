@@ -117,7 +117,7 @@ This project is licensed under the MIT License. See `LICENSE` for details.
 
 ## 📬 Contact
 📧 **Email:** athar2196@gmail.com  
-🌐 **GitHub:** [atharshareef7](https://github.com/atharshareef7) 
-💼 LinkedIn: [Mohammad Athar Shareef](https://www.linkedin.com/in/mohammad-athar-shareef-09181523a/)
+💼**LinkedIn:** [Mohammad Athar Shareef](https://www.linkedin.com/in/mohammad-athar-shareef-09181523a/)
+🌐 **GitHub:** [atharshareef7](https://github.com/atharshareef7)
 
 ---
