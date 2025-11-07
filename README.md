@@ -23,7 +23,36 @@ This project shows how to:
 ---
 ## Architecture Diagram
 
-<img width="1024" height="1024" alt="Architecture diagram" src="https://github.com/user-attachments/assets/3a76e21a-5bba-426f-b063-e7b6fe8ab2cb" />
+             +----------------------+
+             |    AWS IAM           |
+             |----------------------|
+             | IAM User (Admin)     |
+             | Creates IAM Role &   |
+             | Policies (EC2Access) |
+             +----------+-----------+
+                        |
+                        v
+               +--------+---------+
+               |  IAM Role: EC2AccessRole |
+               |  - Allows Start/Stop EC2 |
+               |  - Restricts Terminate    |
+               +------------+--------------+
+                            |
+                            v
+                +-----------+------------+
+                | AWS EC2 Instances       |
+                |-------------------------|
+                | Dev Instance (Full SSH) |
+                | Prod Instance (Limited) |
+                +-----------+-------------+
+                            |
+               +------------+-------------+
+               | Security Groups          |
+               | - Restrict inbound ports |
+               | - Allow HTTPS only for   |
+               |   web access             |
+               +--------------------------+
+
 
 ---
 
